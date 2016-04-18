@@ -1,0 +1,10 @@
+
+<h2>Bingo Jackpots</h2>
+
+<ul>
+  {{#each model as |bingo|}}
+    <li>{{bingo}}</li>
+  {{/each}}
+</ul>
+
+{{jackpots-list title="List of Jackpots" jackpots=model}}
